@@ -4,10 +4,9 @@ var Main=React.createClass({
         render:function(){
                 return(
                         <div>
-                                <div >
-                                        <div >
-                                                <Nav />
-                                                <p>Main rendered</p>
+                                <Nav />
+                                <div className="row">
+                                        <div className="column small-centered mediun-6 large-4">
                                                 {this.props.children}
                                         </div>
                                 </div>
