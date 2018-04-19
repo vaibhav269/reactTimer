@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   entry: [
@@ -23,13 +24,13 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
-      Nav:'app/components/Nav.jsx',
-      Timer:'app/components/Timer.jsx',
-      Countdown:'app/components/Countdown.jsx',
-      Clock:'app/components/Clock.jsx',
-      CountdownForm:'app/components/CountdownForm.jsx',
-      Controls:'app/components/Controls.jsx',
-      applicationStyles:'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      Nav: 'app/components/Nav.jsx',
+      Timer: 'app/components/Timer.jsx',
+      Countdown: 'app/components/Countdown.jsx',
+      Clock: 'app/components/Clock.jsx',
+      CountdownForm: 'app/components/CountdownForm.jsx',
+      Controls: 'app/components/Controls.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

@@ -1,4 +1,10 @@
-@import "/base/variables";
+@import "base/variables";
+//foundation
+//using complete paths as path.resolve in webpack is not working for unknown reason 
+@import "D:/projects/web/reactJS/ReactTimer/node_modules/foundation-sites/scss/settings/settings"; 
+@import "D:/projects/web/reactJS/ReactTimer/node_modules/foundation-sites/scss/foundation";
+@include foundation-everything;
+//components
 @import "/components/nav";
 @import "/components/clock";
 @import "/components/controls";
